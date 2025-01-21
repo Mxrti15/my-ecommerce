@@ -17,6 +17,13 @@ npm install -D eslint prettier eslint-config-prettier eslint-plugin-react eslint
 # GIT
 git init
 git remote add origin git@github.com:Mxrti15/my-ecommerce.git
+git staus
+git add .
+git commit -m "Primer commit"
+git push -u origin main 
+# si el ultimo falla 
+git branch -M main
+git push -u origin main
 
 
 

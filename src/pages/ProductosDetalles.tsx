@@ -1,4 +1,6 @@
-//import React from "react";
+import React from "react";
+import { useParams } from "react-router-dom";
+import { Product } from "../types/Product";
 
 const ProductosDetalles = () => {
     return(
