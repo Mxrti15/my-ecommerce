@@ -1,0 +1,23 @@
+# Crear proyecto
+npm create vite@latest my-ecommerce --template react-ts
+cd my-ecommerce
+npm install
+npm run dev
+
+# Tailwind
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
+# React Router
+npm install react-router-dom
+
+# Instala ESLint y Prettier
+npm install -D eslint prettier eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y
+
+# GIT
+git init
+git remote add origin git@github.com:Mxrti15/my-ecommerce.git
+
+
+
+
