@@ -5,7 +5,8 @@ interface Productos{
     ListaProductos: Product[]; //ListaProductos viene de App
 }
 
-const Home: React.FC<Productos> = ({ListaProductos}) => {
+// <Productos> valida el tipo de props, asegura que las props de ListaProductos tengan una estructura correcta
+const Home: React.FC<Productos> = ({ListaProductos}) => { // () porque es un props y {} desestructura el bjeto props para obtener de forma directas las propiedades de ListaProductos
     return( 
         <div>
             <p>Estas en casa </p>
