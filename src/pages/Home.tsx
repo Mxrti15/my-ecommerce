@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Product } from "../types/Product";
 
+// interfaz que define que Home debe recibir un objeto llamado ListaProductos que debe ser de tipo Product
 interface Productos{
     ListaProductos: Product[]; //ListaProductos viene de App
 }
